@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('./font/fontello.eot?2051082');
+    src: url('./font/fontello.eot?2051082#iefix') format('embedded-opentype'),
+         url('./font/fontello.woff?2051082') format('woff'),
+         url('./font/fontello.ttf?2051082') format('truetype'),
+         url('./font/fontello.svg?2051082#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('./font/Euclid_Circular_A_Regular.ttf');
+}  
+body {
+    font-family: 'Euclid Circular A';
+    font-weight: 400;
+    color: #29374E;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+div, header, section {
+    margin: 0;
+    padding: 0;
+}

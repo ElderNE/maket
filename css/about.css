@@ -1,0 +1,102 @@
+.about_head_blue {
+    color: #0962E8;
+}
+.about_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width: 576px) {
+    .about {
+        max-width: 1100px;
+        padding: 40px 16px 12px 16px;
+        margin: 0;
+    }
+    .about_head {
+        width: 100%;
+        margin: 0 0 16px 0;
+    }
+    .about_head_text {
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+    }
+    .about_platform {
+        width: 344px;
+        height: 215px;
+        background: #E9F6FF;
+        border-radius: 30px;
+        margin: 8px 0;
+        padding: 25px 16px;
+        position: relative;
+        box-sizing: border-box;
+    }
+    .about_platform_img {
+        position: absolute;
+        width: 142px;
+        height: 190px;
+        right: 10px;
+        bottom: 0;
+    }
+    .about_platform_text {
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0;
+        line-height: 18.2px;
+    }
+    .about_platform_textbold {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0;
+        line-height: 22.4px;
+    }
+}
+@media screen and (min-width: 576px) {
+    .about {
+        max-width: 1100px;
+        padding: 150px 60px 0 60px;
+        margin: 0  auto;
+    }
+    .about_head {
+        width: 100%;
+        margin: 0 0 34px 0;
+    }
+    .about_head_text {
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 49.4px;
+        text-align: center;
+        margin: 0;
+    }
+    .about_platform {
+        width: 502px;
+        height: 328px;
+        background: #E9F6FF;
+        border-radius: 30px;
+        margin: 10px;
+        padding: 37px 20px;
+        position: relative;
+        box-sizing: border-box;
+    }
+    .about_platform_img {
+        position: absolute;
+        width: 218px;
+        height: 291px;
+        right: 33px;
+        bottom: 0;
+    }
+    .about_platform_text {
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0;
+        line-height: 19.6px;
+    }
+    .about_platform_textbold {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0 0 12px 0;
+        line-height: 28px;
+    }
+}
